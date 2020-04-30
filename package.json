@@ -1,0 +1,33 @@
+{
+  "name": "davidelgnomobot",
+  "version": "0.1.0",
+  "description": "Bot de david el gnomo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltegui/DavidElGnomoBot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "david",
+    "el",
+    "no",
+    "homo",
+    "gnomo"
+  ],
+  "author": "deltegui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltegui/DavidElGnomoBot/issues"
+  },
+  "homepage": "https://github.com/deltegui/DavidElGnomoBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "node-env-file": "^0.1.8"
+  }
+}
