@@ -1,4 +1,4 @@
-export default [
+module.exports = [
     'https://s1.stickers.cloud/packs/75a5f329-5f52-4579-ad3e-4e5a34227b78/webp/c44cb9b6-ad30-478a-b3c5-b61f3400fc59.webp',
     'https://s1.stickers.cloud/packs/75a5f329-5f52-4579-ad3e-4e5a34227b78/webp/152ddf27-2d80-409d-bc08-daf90cae64ab.webp',
     'https://s1.stickers.cloud/packs/75a5f329-5f52-4579-ad3e-4e5a34227b78/webp/e0f5ce99-1428-4222-a1c2-d6de0b1f33db.webp',

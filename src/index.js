@@ -1,6 +1,6 @@
-import * as Discord from 'discord.js';
-import loadEnvFile from 'node-env-file';
-import images from './img.mjs';
+const Discord = require('discord.js');
+const loadEnvFile = require('node-env-file');
+const images = require('./img.js');
 
 loadEnvFile('.env');
 
