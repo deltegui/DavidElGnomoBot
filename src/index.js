@@ -4,7 +4,7 @@ const giveMeNoHomo = require('./img.js');
 
 loadEnvFile('.env');
 
-const discordToken = process.env.TOKEN;
+const discordToken = process.env.DISCORD_TOKEN;
 const client = new Discord.Client();
 
 function handleRequest(reply) {

@@ -4,7 +4,7 @@ function getImageNumber(num) {
 
 function randomNumber() {
     const imgNumber = 35;
-    return Math.floor(Math.random() * imgNumber);
+    return Math.floor(Math.random() * imgNumber) + 1;
 }
 
 module.exports = () => getImageNumber(randomNumber());
