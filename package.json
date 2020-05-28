@@ -29,5 +29,8 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "node-env-file": "^0.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
   }
 }

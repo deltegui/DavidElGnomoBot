@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const loadEnvFile = require('node-env-file');
-const images = require('./img.js');
+const giveMeNoHomo = require('./img.js');
 
 loadEnvFile('.env');
 
 const discordToken = process.env.TOKEN;
 const client = new Discord.Client();
 
-function giveMeNoHomo() {
-    return images[[Math.floor(Math.random() * images.length)]];
+function handleRequest(reply) {
+	reply(giveMeNoHomo());
 }
 
 client.on('ready', () => {
@@ -19,7 +19,7 @@ client.on('message', msg => {
     if(!/no homo/.test(msg.content)) {
         return;
     }
-    msg.reply(giveMeNoHomo());
+    handleRequest(msg.reply.bind(msg));
 });
 
 client.login(discordToken);
