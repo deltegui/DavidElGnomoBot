@@ -27,8 +27,7 @@
   },
   "homepage": "https://github.com/deltegui/DavidElGnomoBot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0",
-    "node-env-file": "^0.1.8"
+    "discord.js": "^12.2.0"
   },
   "devDependencies": {
     "eslint": "^7.1.0"

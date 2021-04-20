@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
-const loadEnvFile = require('node-env-file');
 const giveMeNoHomo = require('./img');
 const showTrap = require('./traps');
-
-loadEnvFile('.env');
 
 const discordToken = process.env.DISCORD_TOKEN;
 const client = new Discord.Client();
